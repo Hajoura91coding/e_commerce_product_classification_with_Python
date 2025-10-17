@@ -1,7 +1,42 @@
-data/
-*csv
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 .venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (si trop volumineux)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# IDE
+.vscode/
 .idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+#images
+*.png
+
 P06_03_CV_SWIFT.ipynb
 P06_04_transfert_learning_images.ipynb
 P06_02_NLP_Clustering_Classification.ipynb
